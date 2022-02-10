@@ -4,7 +4,7 @@ public class Casting02 {
     public static void main(String[] args) {
                 
         //World population today
-        long currentWorldPop = 7_000_000_000;
+        long currentWorldPop = 7_000;
         System.out.println("Current World Population: " +currentWorldPop);
         
         //World population in 1950,  Source: United Nations Population Division

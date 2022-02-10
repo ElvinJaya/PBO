@@ -10,9 +10,11 @@ public class ShoppingCart02 {
         // Declare and initialize numeric fields: price, tax, quantity.   
         
         
-        
+        string b = custName.toUpperCase();
+        System.out.println("ini nilai B:"+b);
+        System.out.println("ini tanpa upper case: "+ custName);
         // Declare and assign a calculated totalPrice
-        
+        System.out.println("he cat said \"Mew!\"to me");
         
         // Modify message to include quantity 
         
