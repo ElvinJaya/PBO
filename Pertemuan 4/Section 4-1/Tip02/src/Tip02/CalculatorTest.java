@@ -5,7 +5,9 @@ public class CalculatorTest {
     public static void main(String[] args) { 
         //Instantiate a Calculator object
         
-        
+        Calculator calc = new Calculator();
+        calc.originalPrice = 10;
+        calc.findTotal();   
         //Access the Calculator object's fields and methods
         //to find the total for each member of the birthday party
 
