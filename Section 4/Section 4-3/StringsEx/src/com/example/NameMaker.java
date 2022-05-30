@@ -19,7 +19,7 @@ public class NameMaker {
         System.out.println("Index of space character is " +spaceIdx);
         
         String firstName = custName.substring(0,5);
-        System.out.println("My first name is"+ firstName);
+        System.out.println("My first name is" + firstName);
         
         firstName = JOptionPane.showInputDialog(null, "Your first name");
         middleName = JOptionPane.showInputDialog(null, "Your midlle name");
