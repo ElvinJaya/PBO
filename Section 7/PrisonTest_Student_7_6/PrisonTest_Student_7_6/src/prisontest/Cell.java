@@ -2,9 +2,9 @@
 package prisontest;
 
 public class Cell {
-    private String name;
+    private final String name;
     private boolean isOpen;
-    private int securityCode;
+    private final int securityCode;
     
     public Cell(String name, boolean isOpen, int securityCode){
         this.name = name;
